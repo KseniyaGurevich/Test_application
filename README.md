@@ -20,3 +20,16 @@
 - pytest
 - coverage
 
+###Запуск проекта
+
+- Клонировать репозиторий и перейти в него в командной строке:
+```
+git clone git@github.com:KseniyaGurevich/Test_application.git
+```
+
+- Cоздать и активировать виртуальное окружение.
+
+- Установить зависимости:
+```
+poetry install
+```
