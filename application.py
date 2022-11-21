@@ -68,14 +68,14 @@ def write_id_dict(url_list):
 
 def read_input():
     """Ввод данных"""
-    N = int(input())
-    data = [input() for _ in range(N)]
-    return N, data
+    n = int(input())
+    data = [input() for _ in range(n)]
+    return n, data
 
 
 if __name__ == "__main__":
-    N, data = read_input()
-    url_list = extract_urls(N, data)
+    n, data = read_input()
+    url_list = extract_urls(n, data)
     result = write_id_dict(url_list)
     pprint(result)
 
