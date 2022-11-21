@@ -33,3 +33,7 @@ git clone git@github.com:KseniyaGurevich/Test_application.git
 ```
 poetry install
 ```
+
+### Отчёт о покрытии тестами в можно посмотреть в директории:
+
+Test_application / htmlcov / index.html
